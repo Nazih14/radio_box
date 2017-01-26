@@ -1,1 +1,98 @@
 /* YOUR CUSTOM STYLES */
+
+
+/* TEMPLATE STYLES */
+/* Necessary for full page carousel*/
+
+html,
+body,
+.view {
+	height: 100%;
+}
+/* Navigation*/
+
+.navbar {
+	background-color: transparent;
+}
+
+.scrolling-navbar {
+	-webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+	transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+	background-color: #1C2331;
+}
+
+footer.page-footer {
+	background-color: #1C2331;
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar {
+		background-color: #1C2331;
+	}
+}
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.flex-center {
+	color: #fff;
+}
+
+.carousel-caption {
+	height: 100%;
+	padding-top: 7rem;
+}
+
+.back-black {
+	background-color: #0a0a0a;
+}
+
+.section {
+	margin-bottom: 0rem;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #fff;
+}
+.edge-header{
+    background: #ff3c00;
+    padding: 75px 0;
+    color: #fff;
+}
+.edge-header h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font: 46px;
+    line-height: 46px;
+}
+.edge-header h1 span {
+    font-weight: 300;
+}
+.edge-header .social-networks {
+    float: right;
+    padding-top: 15px;
+}
+.edge-header .social-networks li {
+    display: inline-block;
+    padding: 0 6px;
+}
+.edge-header .social-networks li a {
+    opacity: .45;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
